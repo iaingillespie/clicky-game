@@ -5,3 +5,31 @@
     background-color: lightcyan;
     margin-top: 0
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+}
+
+.item {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center
+}
+
+.display-4{
+    text-align: center
+}
+
+.lead{
+    text-align: center
+}
+
+.jumbotron{
+    background-color: azure;
+    width: 100%;
+}

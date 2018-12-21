@@ -22,7 +22,7 @@ class Wrapper extends Component {
             this.setState({score: 0})
             this.setState({clicked: []})
             if(this.state.score > this.state.topScore){
-                // this.setState({topScore: score})
+                this.setState({topScore: this.state.score})
                 // console.log("Top Score:" + topScore)
             }
             return
@@ -47,7 +47,23 @@ class Wrapper extends Component {
 
     render(){
     return (<div> 
-            <Header />
+             <nav className="navbar">
+           
+                
+           <div className="item">Clicky Game</div>
+           <div className="item">Click an image to begin</div>
+           <div className="item">Score: {this.state.score} | Top Score: {this.state.topScore} </div>
+
+           {/* Wrapper.state.score Wrapper.state.topScore */}
+
+      
+   </nav>
+
+   <div className="jumbotron">
+       <h1 className="display-4">Studio Ghibli - Clicky Game!!</h1>
+       <p className="lead">Click on an image to earn points, but don't click on any more than once! </p>
+
+   </div>
 
             <div className="wrapper">
             {
