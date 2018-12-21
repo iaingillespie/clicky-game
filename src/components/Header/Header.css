@@ -22,5 +22,6 @@
 }
 
 .jumbotron{
-    background-color: azure
+    background-color: azure;
+    width: 100%;
 }

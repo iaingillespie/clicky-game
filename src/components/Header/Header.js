@@ -3,7 +3,9 @@ import "./Header.css";
 import Wrapper from "../Wrapper";
 
 
-const Header = () => (
+const Header = (props) => (
+
+    
 
     <div>
 
@@ -12,7 +14,7 @@ const Header = () => (
                 
                 <div className="item">Clicky Game</div>
                 <div className="item">Click an image to begin</div>
-                <div className="item">Score: {12} | Top Score: {0} </div>
+                <div className="item">Score: {0} | Top Score: {12} </div>
 
                 {/* Wrapper.state.score Wrapper.state.topScore */}
 
